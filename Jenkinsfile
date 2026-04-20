@@ -1,9 +1,8 @@
 <<<<<<< HEAD
 pipeline {
-    agent any
 
     environment {
-        IMAGE_NAME = "manojkrishnappa/adservice:${GIT_COMMIT}"
+        IMAGE_NAME = "vinaysargam7/adservice:${GIT_COMMIT}"
     }
 
     stages {
@@ -87,7 +86,6 @@ pipeline {
 }
 =======
 pipeline {
-    agent any
 
     environment {
         IMAGE_NAME = "vinaysargam7/adservice:${GIT_COMMIT}"
