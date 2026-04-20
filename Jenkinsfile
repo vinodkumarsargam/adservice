@@ -1,6 +1,7 @@
-<<<<<<< HEAD
-pipeline {
 
+pipeline {
+    agent any
+    
     environment {
         IMAGE_NAME = "vinaysargam7/adservice:${GIT_COMMIT}"
     }
@@ -84,8 +85,8 @@ pipeline {
         }
     }
 }
-=======
 pipeline {
+    agent any
 
     environment {
         IMAGE_NAME = "vinaysargam7/adservice:${GIT_COMMIT}"
